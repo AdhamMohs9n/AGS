@@ -1,0 +1,304 @@
+/* Home */
+*{
+
+    margin: 0;
+    padding: 0;
+}
+/* 
+body{
+    
+    height: 5000px;
+} */
+
+.home{
+
+    height: 626px;
+    width:100%;
+    background: url(../img/8-983_seaside_interieura-kopie\ \(1\).jpg);
+    background-size: cover;
+
+
+}
+
+.home .header ul{
+
+    list-style: none;
+    text-align: center;
+
+}
+
+
+.home .header ul li{
+
+    display: inline-block;
+    padding: 20px;
+    
+
+}
+
+.home .header ul a{
+
+    color:#FFF;
+    font-size: 20px;
+    text-decoration: none;
+    font-family: cursive;
+}
+
+
+
+
+.home .best{
+
+width: 500px;
+height: 200px;
+margin: 160px auto;
+text-align: center;
+
+}
+
+.home .best p{
+
+padding-top: 30px;
+font-size: 2%px;
+color: #000
+
+}
+
+.home .best  .one{
+
+    font-size: 95px;
+    font-weight: bold;
+    margin-bottom: 0px;
+
+}
+
+
+.home .best .tow{
+
+    
+    font-size: 25px;
+    font-weight: bold;
+
+}
+
+/* home scroll nav */
+
+.scroll_nav{
+
+background: rgba(0,0,0,0.6);
+width: 100%;
+height: 70px;
+position: fixed;
+top: 0;
+display: none;
+z-index: 999;
+
+
+}
+
+/* About */
+
+.about{
+
+width: 100%;
+height: 700px;
+background: url(../img/banner-autumn19-xs.jpg);
+background-size:cover;
+background-position: center;
+overflow: hidden;
+
+
+}
+
+.about .about_us{
+
+width: 35%;
+height: 100%;
+background:  rgba(0, 0, 0, 0.3);
+float: right;
+margin-right: 5%;
+text-align: center;
+
+
+}
+
+
+
+
+.about .about_us h2{
+    margin-top:0;
+    color: #ffff73;
+    padding-top:15%;
+    padding-bottom: 8%;
+    font-size: 45px;
+}
+
+
+
+.about .about_us p{
+
+color: #eee; 
+font-size: 30px
+
+
+}
+
+/* Service */
+
+.service{
+
+    width: 100%;
+    height: 700px;
+    background: url(../img/CRAVT.jpg);
+    background-size:cover;
+    overflow: hidden;
+    
+    
+    }
+    
+.service .service_us{
+    
+    width: 35%;
+    height: 100%;
+    background:  rgba(0, 0, 0, 0.3);
+    float: left;
+    margin-left: 5%;
+    text-align: center;
+    
+    
+    }
+    
+    
+    
+    
+.service .service_us h2{
+        margin-top:0;
+        color: #ffff73;
+        padding-top:15%;
+        padding-bottom: 8%;
+        font-size: 45px;
+    }
+    
+    
+    
+.service .service_us p{
+    
+    color: #eee;
+
+    font-size: 30px
+    
+    
+    }
+
+
+/* Testimonials */
+
+
+
+.testimonials{
+
+width: 100%;
+height: 600px;
+background: url(../img/Tapetenshop-Oranienburg_XXL4-067_Backstein.jpg);
+background-size:cover; 
+background-position: center;
+background-position-x: 20;
+
+}
+
+.testimonials h1{
+margin: 0px;
+text-align:center;
+padding-top: 5%;
+color: #fff;
+
+}
+.testimonials .test P {
+    text-align: center;
+    font-size: 20px;
+}
+
+.testimonials .test{
+    width: 30%;
+    background: rgba(0,0,0,0.5);
+    height:300px;
+    margin-left: 2.5%;
+    margin-top: 5%;
+    float: left;
+    color: #FFF;
+    text-align: center;
+
+}
+
+.testimonials i{
+
+    padding-top:5% ;
+
+}
+
+
+.testimonials p{
+
+color: #eee;
+margin-top: 7%;
+font-size: 15px;
+line-height: 1.8;
+text-align: left;
+margin-left: 5%
+}
+
+
+/* contact */
+
+
+.contact {
+    width: 100%;
+    height: 600px;
+    background: url(../img/WhatsApp\ Image\ 2020-02-06\ at\ 3.33.28\ PM.jpeg);
+    background-size: cover; 
+    background-position:center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+
+}
+
+.contact .Contact-Us{
+
+width: 35%;
+height: 100%;
+background: rgba(0,0,0,0.2);
+float: right;
+margin-right: 5%;
+text-align: center;
+
+
+}
+
+
+.contact .Contact-Us h1{
+margin: 0;
+color:#ffff73;
+padding-top: 10%;
+padding-bottom: 10%;
+
+}
+.contact .Contact-Us p{
+    font-size: 25px;
+    color: #000;
+}
+
+.contact .Contact-Us a{
+    margin: 30px 20px 0px 0px ;
+    color: #fff;
+
+}
+
+.contact .Contact-Us a:hover:nth-child(1){
+color: #3b5998;
+}
+.contact .Contact-Us a:hover:nth-child(3){
+    color:  #00acee ;
+}
+.contact .Contact-Us a:hover:nth-child(2){
+    color:  #0e76a8 ;
+    }
